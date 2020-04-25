@@ -47,7 +47,6 @@ public class Game extends JPanel {
 	         }          
 	      });
 		newGame.setBounds(550,100, 100, 50);
-		
 	}
 	public int win(){
 	    for(int i=0;i<gameBoard.length;i++){
@@ -147,7 +146,7 @@ public class Game extends JPanel {
 	    
 	    
 	    
-	 /*   for (int i = 0; i<gameBoard.length; i++) {
+	    for (int i = 0; i<gameBoard.length; i++) {
             System.out.print(gameBoard[i][0]);
         }
         System.out.println("");
@@ -158,10 +157,10 @@ public class Game extends JPanel {
         for (int i = 0; i<gameBoard.length; i++) {
             System.out.print(gameBoard[i][2]);
         }
-        System.out.println("");*/
+        /*System.out.println("");
 	    System.out.println(gameBoard[0][0]);
 	    System.out.println(gameBoard[0][1]);
-	    System.out.println(gameBoard[0][2]);
+	    System.out.println(gameBoard[0][2]);*/
 	}
 	public void reset(){
 	    for(int i=0;i<gameBoard.length;i++){
